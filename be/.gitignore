@@ -1,0 +1,64 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Environment variables
+.env
+.env.*.local
+
+# TypeScript compiled output
+dist/
+build/
+out/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+
+# Debug and coverage files
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+
+# Package lock files (if not preferred in version control)
+# Uncomment if you don't want package-lock.json or yarn.lock tracked
+# package-lock.json
+# yarn.lock
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Generated types
+*.d.ts
+
+# Optional npm files
+*.tgz
+
+# Local server settings
+.local/
+
+# Jest
+jest.config.js
+jest.config.ts
